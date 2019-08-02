@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+    <section id="corps">
+        <div class="container">
+            <div class="heading">
+                <img src="image/pronos.png" alt="TR Pronos">
+                <h1>Bienvenue sur TR Pronos</h1>
+            </div>
+            <div class="row">
+                <div class="btn col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <a href="{{ path('pages_login') }}"><p>Connexion</p></a>
+                </div>
+                <div class="btn col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <a href="{{ path('pages_selection-abonnement') }}"><p>Inscription</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

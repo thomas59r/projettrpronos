@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Inscription{% endblock %}
+
+{% block body %}
+
+    <section id="corps">
+        <div class="container">
+            <div class="heading">
+                <h1>Inscrivez vous sur TR_Pronos, <br><span>Obtenez un accès à l'espace VIP.</span></h1>
+            </div>
+
+            <div class="row">
+                <div class="register col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                    <h2>Inscription</h2>
+
+                    <input class="nom" type="text" placeholder="Nom d'utilisateur">
+                    <input class="nom" type="email" placeholder="Email">
+                    <input class="nom" type="tel" placeholder="Téléphone (factultatif)">
+                    <input class="pass" type="text" placeholder="Mot de passe">
+                    <input class="pass2" type="text" placeholder="Confirmation du mot de passe">
+                    <br>
+
+                    <form action="paymentProcess.php?pid=1" method="POST">
+
+                        <script
+                                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                data-label="Passer au paiement"
+                                data-key="pk_test_InwOqy624uXwfN2dgqlCR2gI"
+                                data-amount="2700"
+                                data-name="TR_Pronos"
+                                data-description="1 mois VIP (sans engagement)"
+                                data-image="../image/pronos.png"
+                                data-locale="auto"
+                                data-currency="eur">
+                        </script>
+                    <a class="register_redirect"  href="{{ path('pages_login') }}">Déjà un compte ? connecte toi !</a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </section>php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion{% endblock %}
+
+{% block body %}
+
+    <section id="corps">
+        <div class="container">
+            <div class="heading">
+                <h1>Connectez vous sur TR_Pronos, <br><span>pour accéder à l'espace VIP.</span></h1>
+            </div>
+
+            <div class="row">
+            <div class="login col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <h2>Connexion</h2>
+
+                <input class="nom" type="text" placeholder="Nom d'utilisateur">
+                <input class="pass" type="text" placeholder="Mot de passe">
+
+                <input class="btn btn-success" type="submit" value="Connexion">
+                <br>
+                <a class="register_redirect"  href="{{ path('pages_register') }}">Pas encore de compte ? Inscris toi !</a>
+                <br>
+                <a class="pass-oublie"  href="{{ path('pages_resetpass') }}">Mot de passe oublié ?</a>
+                <br>
+                <br>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+{% endblock %}

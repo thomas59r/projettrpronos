@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+}
+
+#video_background{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+/*--------------- SCRIPT ------------*/
+
+body
+{
+    margin: 0;
+    font: normal Arial, Helvetica, sans-serif;
+    background-image: url("../image/image1.jpg");
+    background-repeat: no-repeat;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js
+{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#particles-js2
+{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*--------------- SCRIPT ------------*/
+
+/*--GENERAL--*/
+
+body::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+#particles-js .h1redirect a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*--GENERAL--*/
+
+/*--HEADER--*/
+
+.header {
+    height: 200vh;
+}
+.header h1 {
+    text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.37);
+}
+.header .navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.header .navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.58);
+    background-color: rgba(0, 0, 0, 0.43);
+}
+.header .navbar h1 {
+    color: #fff;
+}
+.header .navbar-nav li {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.header .navbar-nav li a {
+
+}
+#navbarNav li a {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#navbarNav li a:hover {
+    border: 1px solid #fff;
+    background-color: rgba(103, 103, 103, 0.22);
+}
+/*--HEADER--*/
+
+/*--CORPS--*/
+
+#corps {
+    position: absolute;
+    background-color: rgba(96, 96, 96, 0.49);
+    text-align: center;
+    width: 100%;
+}
+#corps img {
+    margin-top: 30px;
+    height: 200px;
+}
+#corps h1, h2 {
+    margin-top: 0.5em;
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+}
+
+#corps span {
+    font-size: 30px;
+    font-style: italic;
+}
+
+#corps .login {
+    background-color: rgba(0, 0, 0, 0.43);
+    border-radius: 5px;
+    height: auto;
+    margin: 4% auto;
+    border: solid 1px #fff;
+}
+
+#corps .login h2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#corps input{
+    width: 300px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border: solid 1px black;
+    text-align: center;
+}
+#corps .pass-oublie {
+    color: #fff;
+    text-decoration: none;
+}
+#corps .register_redirect
+{
+    color: dodgerblue;
+    text-decoration: none;
+}
+#corps .nom {
+    margin-bottom: 5px;
+}
+
+#corps .pass {
+    margin-bottom: 5px;
+}
+#corps .pass2 {
+    margin-bottom: 10px;
+}
+
+#corps .register{
+    background-color: rgba(0, 0, 0, 0.43);
+    border-radius: 5px;
+    height: auto;
+    margin: 4% auto;
+    padding-top: 10px;
+    border: solid 1px #fff;
+}
+
+#corps .row {
+
+}
+#corps .row p {
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.80);
+    border: solid 1px #fff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #000;
+}
+#corps .row p:hover {
+    padding: 2%;
+    background-color: #fff;
+    border: solid 1px #000;
+    color: #000;
+}
+#corps .row a
+{
+    text-decoration: none;
+}
+
+/*--CORPS--*/
+
+/*--CORPS-CG--*/
+
+#corps-CG {
+    position: absolute;
+    background-color: rgba(96, 96, 96, 0.49);
+    text-align: center;
+    width: 100%;
+}
+#corps-CG h1{
+    margin-top: 0.5em;
+    color: #fff;
+    text-shadow: 2px 2px 6px #000;
+}
+
+#corps-CG h2{
+    margin-bottom: 20px;
+}
+
+#corps-CG .row {
+
+}
+#corps-CG .row p {
+    padding: 2%;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 0px 6px #000;
+}
+#corps-CG .row p:hover {
+    padding: 2%;
+    background-color: #fff;
+    color: #000;
+}
+#corps-CG .row a
+{
+    text-decoration: none;
+}
+
+/*--CORPS-CG--*/
+
+/*--FOOTER--*/
+#footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 69.5em;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    bottom: ;
+}
+
+#footer .cond{
+    text-decoration: none;
+}
+
+#footer .cond:hover {
+    color: #959595;
+}
+
+footer {
+    bottom: 0;
+}
+
+footer p a {
+    color: #fff;
+}
+/*--FOOTER--*/
+
+
+/*--CGV-CGU--*/
+
+#cgv-cgu{
+    color: #fff;
+}
+
+/*--CGV-CGU--*/
+
+/*--PAIEMENT--*/
+.card {
+    width: 100%;
+}
+.card:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.price {
+    font-size: 72px
+}
+.currency {
+    font-size: 25px;
+    position: relative;
+    top: -30px;
+}
+
+.list-group-item {
+    border: 0px;
+    padding: 5px;
+}
+.stripe-button {
+    content: '20€ par mois';
+}
+
+
+/*--PAIEMENT--*/
+

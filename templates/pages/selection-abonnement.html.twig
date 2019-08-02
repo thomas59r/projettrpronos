@@ -1,0 +1,35 @@
+{% extends 'base2.html.twig' %}
+
+{% block title %}Inscription{% endblock %}
+
+{% block body %}
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                <h1 class="price"><span class="currency">€</span>27</h1>
+            </div>
+            <div class="card-body">
+                <h1 class="text-center">1 Mois VIP</h1>
+                <ul class="list-group">
+                    <li class="list-group-item">Sans engagement</li>
+                    <li class="list-group-item">Profitez des meilleurs pronostiques</li>
+                    <li class="list-group-item">à seulement </li>
+                </ul>
+            </div>
+
+            <div class="card-footer text-center">
+                <form method="POST" action="{{ path('pages_register') }}">
+                    <input type="submit" name="Souscrire" value="Souscrire" >
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
